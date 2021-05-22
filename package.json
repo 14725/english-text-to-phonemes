@@ -12,6 +12,7 @@
     "test": "mocha --compilers ts:ts-node/register,tsx:ts-node/register **/*.spec.ts",
     "build:ts": "tsc",
     "build:min": "webpack -p"
+    "build": "webpack"
   },
   "keywords": [
     "english",
